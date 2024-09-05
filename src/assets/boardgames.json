@@ -1,0 +1,86 @@
+[
+
+    {
+      "id": "1",
+      "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+      "description": "Strategy, Trade, Negotiation, Money, Wealth",
+      "name": "Monopoly",
+      "language": "English",
+      "people": "2-8",
+      "time": "60-180"
+    },
+    {
+        "id": "2",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Strategy, Wildlife, Birds, Card Drafting, Nature",
+        "name": "Wingspan",
+        "language": "English",
+        "people": "1-5",
+        "time": "40-70"
+      },
+      {
+        "id": "3",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Crime, Detective, Mystery, Murder, Memory",
+        "name": "Cluedo",
+        "language": "English",
+        "people": "2-8",
+        "time": "60-180"
+      },  {
+        "id": "4",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Card Game, Words, Agents, Memory, Teamwork",
+        "name": "Codenames",
+        "language": "English",
+        "people": "2-8",
+        "time": "15 min"
+      },  {
+        "id": "5",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Strategy, Trade, Negotiation, Money, Wealth",
+        "name": "Wits & Wagers",
+        "language": "English",
+        "people": "4-18",
+        "time": "25 min"
+      },  {
+        "id": "6",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Strategy, Fighting, Dice, Science Fiction",
+        "name": "King of Tokyo",
+        "language": "English",
+        "people": "2-6",
+        "time": "30 min"
+      },  {
+        "id": "7",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Horror, Zombies, Action, Bluffing, Apocalypse ",
+        "name": "Dead of Winter",
+        "language": "English",
+        "people": "2-5",
+        "time": "60-120"
+      },  {
+        "id": "8",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Memory, Family, Fast Reflexes, Card Drafting",
+        "name": "Sushi Go",
+        "language": "English",
+        "people": "2-5",
+        "time": "15 min"
+      },  {
+        "id": "9",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Strategy, Trade, Negotiation, Money, Wealth",
+        "name": "Monopoly",
+        "language": "English",
+        "people": "2-8",
+        "time": "60-180"
+      },  {
+        "id": "10",
+        "image": "https://www.baaa.dk/media/b5ahrlra/maria-louise-bendixen.jpg?anchor=center&mode=crop&width=800&height=450&rnd=132792921650330000&format=webp",
+        "description": "Strategy, Trade, Negotiation, Money, Wealth",
+        "name": "Monopoly",
+        "language": "English",
+        "people": "2-8",
+        "time": "60-180"
+      }
+  ]
