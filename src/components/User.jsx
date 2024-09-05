@@ -11,18 +11,24 @@ export default function User({ user }) {
 
   return (
     <article className="user-card" onClick={handleClick}>
-      <img src={user.image || "https://placehold.co/600x400?text=Error+loading+image"} alt={user.name} />
-      <h2>
-      <p className="name">{user.name}</p>
-      </h2>
-      <p>
-      <p className="description">{user.description}</p>
-      <p className="language">{user.language}</p>
-      <p className="people">{user.people}</p>
-      <p className="time">{user.time}</p>
-      
-        
-      </p>
+      <img
+        src={user.image || "https://placehold.co/600x400?text=Error+loading+image"}
+        alt={user.name}
+      />
+      <div className="user-card-content">
+        <h2 className="name">{user.name}</h2>
+        <p className="description">{user.description}</p>
+        <div className="user-card-details">
+          <p className="language">{user.language}</p>
+          <p className="people">
+            <i className="fas fa-users"></i> {user.people}
+          </p>
+          <p className="time">
+            <i className="fas fa-clock"></i> {user.time}
+          </p>
+        </div>
+      </div>
     </article>
   );
+  
 }
