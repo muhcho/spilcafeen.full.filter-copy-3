@@ -271,32 +271,58 @@ nav a.active {
 /* ---------- User Card styling ---------- */
 
 .user-card {
-  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  padding: 0;
   background-color: var(--white);
   transition: 0.5s;
   animation: fadeIn 0.5s;
   cursor: pointer;
   border-radius: 10px;
-}
-
-.user-card:hover {
-  box-shadow: 0 8px 16px 0 var(--green);
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
 
 .user-card img {
-  width: 100%;
-  height: 200px;
+  width: 40%; /* Adjust this percentage to control the image size */
+  height: 100%; /* Ensure the image covers the full height of the card */
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 10px 0 0 10px; /* Round only the left corners */
 }
 
-.user-card h2 {
-  margin: 0.5em 0 0;
+.user-card-content {
+  padding: 1em;
+  width: 60%; /* Adjust to balance with the image size */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.user-card .title {
+.user-card h2.name {
   margin: 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.user-card p.description {
+  margin: 0.5em 0;
+  font-size: 1rem;
+  color: var(--text-color-dark);
+}
+
+.user-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: var(--text-color-dark);
+}
+
+.user-card-details p {
+  margin: 0;
+}
+
+.user-card-details i {
+  margin-right: 0.5em;
 }
 
 /* ---------- avatar styling ---------- */
